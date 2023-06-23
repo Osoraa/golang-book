@@ -7,8 +7,8 @@ import "fmt"
 
 func main() {
 
-	var name string = "Osoraa"
-	var greet string = "Hello"
+	name := "Osoraa"
+	greet, length := "Hello", "len"
 
-	fmt.Println(greet, "World from Introduction to Go by", name)
+	fmt.Println(greet, "World from Introduction to Go by", name, length)
 }
