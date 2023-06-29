@@ -7,4 +7,4 @@
 
 - Th Go compiler can infer types so `var name = "Bookie"` is also fine, so long as the variable is instantiated upon creation.
 
-- Idiomatic Go favours the walrus operator for variable creation. i.e. `name := "Esobe"`.
+- Idiomatic Go favours the walrus operator over the `var` statement for variable instantiation. i.e. `name := "Esobe"`.
