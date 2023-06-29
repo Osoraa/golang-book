@@ -19,3 +19,7 @@ If I find any, I'll list them here as I go:
   - Single line  - Starting with `//` until the end of the line.
 
   - Multi line - Starts with `/*` until it's terminated with `*/`.
+
+- A Go Program is compiled and run by executing `go run <program name>` in the terminal from the directory the program is in or using the full/relative path to the program from another directory.
+
+- The `import` statement is used to import external packages for use in your own Go program. i.e. `import "fmt"` which is pretty useful for basic io operations in Go. fmt is short for format.
