@@ -6,9 +6,13 @@ package main
 import "fmt"
 
 func main() {
+	// Assign multiple variables, just like unpacking in Python 
+	name, greet:= "Osoraa", "Hello"
 
-	name := "Osoraa"
-	greet, length := "Hello", "len"
+	const immut = "Bookie"
 
-	fmt.Println(greet, "World from Introduction to Go by", name, length)
+	// Throws an error
+	// immut = "Osoraa"
+
+	fmt.Println(greet, "World from Introduction to Go by", name)
 }
