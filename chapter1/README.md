@@ -11,4 +11,4 @@ I used the installer linked above cos why not??
 - One key thing is: As of this document, the latest Go version is version 1.20.xx while latest on the apt package manager is version 1.18.xx.  
 Not sure is there are any real differences that may affect my understanding of this book.  
 If I find any, I'll list them here as I go:
-  - In the book, `godoc` is used to get help in Go, but in 1.20, `godoc` isn't available, but `go doc` is...to get it, you'd have to install x-tools which essentially installs version 1.18.
+  - In the book, `godoc` is used to get help in Go, but in 1.20, `godoc` isn't available, but `go doc` is...to get `godoc`, you'd have to install x-tools which essentially installs version 1.18.
