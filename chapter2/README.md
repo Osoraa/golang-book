@@ -19,3 +19,6 @@ Unsigned integers are - **uint8, uint16, uint32 and uint64**.
 - Go supports the standard arithmetic operators.
 
 - Strings can be created with either double-quotes or back-ticks.
+
+- Booleans are **OR**, **AND**, and **NOT** which are denoted by **||**, **&&**, and **!** respectively, just like in most other languages.  
+**true** and **false** are also reserved keywords in the Go Programming language.
