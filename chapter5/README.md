@@ -9,3 +9,4 @@
 
 - The `len()` function returns an int type. Type conversion uses the type like a function. E.g. `float64(len(num))`.
 
+- Use and underscore in for variables you won't use. Like for unused iterators in for loops. Awesome!!!
