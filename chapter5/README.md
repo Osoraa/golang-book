@@ -28,3 +28,12 @@
 - Copy one array into another using the `copy(dst, src)` function. The destination slice comes before the source slice.  
 If the destination slice is smaller than the src slice, then the items that can't fit in are discarded.
 
+- Maps aka associative arrays, hash tables or dictionaries are Key-Value pairs for holding data.
+
+- The length of a map is the number of it's key-value pairs.  
+Use the builtin `delete(map, key)` function to delete map items.
+
+- An unsuccessful lookup in a map returns athe zero value of the value type.
+
+- [This](mapping.go) introduces mapping in Go. [This](mapping_v2.go) details a more advanced use of maps in Go.
+
