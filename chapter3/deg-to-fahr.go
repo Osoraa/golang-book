@@ -29,9 +29,22 @@ func fahr_to_deg(fahr float64) float64{
 
 func main() {
 	// User makes a choice
+	res := 0.0
+
 	fmt.Println("Make a choice\n0. Deg to Fahr\n1. Fahr to Deg?")
 	fmt.Scanf("%d", &choice)
+	
+	if choice == 0 {
+		fmt.Println("Input the temperature to convert to fahrenheit?")
+		fmt.Scanf("%f", &temp)
 
-	// Requests temperature from User
-	fmt.Scanf("%f", &temp)
-}
+		res = deg_to_fahr(temp)
+	} else {
+		fmt.Println("Input the temperature to convert to degrees?")
+		fmt.Scanf("%f", &temp)
+
+		res = fahr_to_deg(temp)
+	}
+
+	fmt.Println("Result is:", res)
+} 
