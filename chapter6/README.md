@@ -24,3 +24,8 @@
 - Functions along with non-local variables that they reference are called Closures. These closures are often used to create functions that'd return functions demonstrated [here](closure_v3.go)
 
 - Recursion is pretty straightforward as in ay other programming language.
+
+- The `defer` statement is used to schedule a function to be run at the end of the function it is in.  
+In the case of multiple defer statements, the first shaa be the last and the last shall be the first 😂  
+Defer allows a function to still be run even in the event of an error.  
+Since a return is essentially the end of a function, Defer would run before the host function returns.
