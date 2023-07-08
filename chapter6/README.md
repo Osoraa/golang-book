@@ -17,4 +17,10 @@
   - Multiple return values too. They go in parentheses separated by a comma.  
   A good use of this would be to return a value and a possible error code.
 
-- Variadic Functions
+- Variadic Functions in Go are declared thus: `func func_name(arg_name ...) return_type`
+
+- The format above could also be used to take in slices, but an ellipses `...` would come after the slice_name in the function call.
+
+- Functions along with non-local variables that they reference are called Closures. These closures are often used to create functions that'd return functions demonstrated [here](closure_v3.go)
+
+- Recursion is pretty straightforward as in ay other programming language.
