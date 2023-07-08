@@ -28,4 +28,7 @@
 - The `defer` statement is used to schedule a function to be run at the end of the function it is in.  
 In the case of multiple defer statements, the first shaa be the last and the last shall be the first 😂  
 Defer allows a function to still be run even in the event of an error.  
-Since a return is essentially the end of a function, Defer would run before the host function returns.
+Since a return is essentially the end of a function, Defer would run before the host function returns.  
+Defer has to used on a function call
+
+- The builtin `recover` function used along with the `defer` statement can be used to handle a runtime panic.
