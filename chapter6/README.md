@@ -32,3 +32,7 @@ Since a return is essentially the end of a function, Defer would run before the 
 Defer has to used on a function call
 
 - The builtin `recover` function used along with the `defer` statement can be used to handle a runtime panic.
+
+- Pointers are basically the same, with `*` to dereference/indicate them and `&` to get the pointer to a variale 
+
+- The `new(data_type)` builtin function creates pointers to the data type passed into it. E.g. `xPtr := new(rune)`.
