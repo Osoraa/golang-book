@@ -4,9 +4,9 @@
 
 ### Key Takeaways
 - Most obvious types in GO are Numbers, Strings and Booleans.  
-Numbers generally consist of Integers and Floats, not sure if there are any more.
+Numbers generally consist of Integers, Floats, and Complexes not sure if there are any more.
 
-- Integers are signed and unsigned, just like in C and are nicely named with how many bts they use.  
+- Integers are signed and unsigned, just like in C and are nicely named with how many bits they use.  
 Signed integers are - **int8, int16, int32 and int64**.  
 Unsigned integers are - **uint8, uint16, uint32 and uint64**. 
 
