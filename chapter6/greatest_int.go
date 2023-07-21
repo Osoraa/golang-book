@@ -5,20 +5,23 @@ package main
 import "fmt"
 
 func greatest(args ...int) int {
-	// Comment
+	// A function that finds the greatest number from a variadic param list
 
-	greatest := 0
+	res := 0
+
 	for _, num := range args {
-		if num > greatest {
-			greatest = num
+		if num > res {
+			res = num
 		}
 	}
 
-	return greatest
+	return res
 }
 
 func main() {
-	// slice := []int{1, 2, 10, 3, 4, 5}
+	fmt.Println(greatest(1, 2, 10, 350, -1, 4, 500))
 
-	fmt.Println(greatest(1, 2, 10, 3, 4, 5))
+	slice := []int{1, 2, 10, 3, 4, 5}
+
+	fmt.Println(greatest(slice...))
 }
