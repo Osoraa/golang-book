@@ -1,6 +1,6 @@
 package main
 
-// Demonstrates methods in Go.
+// Demonstrates methods in Go
 
 import ("fmt")
 
@@ -9,7 +9,7 @@ type Rectangle struct {
 }
 
 func (rec *Rectangle) area() int {
-	// Area method made callable on a Recangle object.
+	// Area method tied to the Rectangle object by the receiver
 	return rec.l * rec.b
 }
 
