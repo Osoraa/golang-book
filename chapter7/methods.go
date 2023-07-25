@@ -9,6 +9,7 @@ type Rectangle struct {
 }
 
 func (rec *Rectangle) area() int {
+	// Area method made callable on a Recangle object.
 	return rec.l * rec.b
 }
 
