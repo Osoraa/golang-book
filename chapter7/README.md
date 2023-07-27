@@ -3,7 +3,7 @@
 ## Chapter 7: Structs and Interfaces
 
 ### Key Takeaways
-- The `struct` keyword along with `type` is used to create collections or new types, akin to classes.  
+- The `struct` keyword along with `type` is used to create collections or new types, akin to classes.
 ``` Go
 type newStructName struct {
     fieldName fieldType
@@ -20,3 +20,11 @@ Using the `:=` operator creates the instance in memory and returns a pointer to 
 A pointer to a new instance can be gotten thus: `instance := &structName{value}`
 
 - Struct fields are referenced using the dot `.` operator, i.e. `instance.field`
+
+- Methods are functions that ony specific types should be able to call. They use receivers after the `func` keyword to specify what type owns them. Go methods are created thus;
+```Go
+func (rec *Rectangle) area() float64 {
+    return rec.length * rc.breadth
+}
+```
+
