@@ -28,3 +28,4 @@ func (rec *Rectangle) area() float64 {
 }
 ```
 
+- A type can be embedded in another type so that it's properties are made directly callable on the new type, demonstrated [here](./embedded_types.go)
