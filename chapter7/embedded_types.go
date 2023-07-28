@@ -9,7 +9,8 @@ type Person struct {
 }
 
 type Android struct {
-	Person
+	Person			// Just the type name is needed
+	// Person Person
 	Model string
 }
 
@@ -20,5 +21,6 @@ func (p *Person) talk() {
 func main() {
 	dexter := new(Android)
 
-	dexter.talk()
+	dexter.talk()	// Only Person was used in Android's declaration
+	// dexter.Person.talk()
 }
