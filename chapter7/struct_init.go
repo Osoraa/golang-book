@@ -19,7 +19,7 @@ func main() {
 	var circ Circle
 	circl := new(Circle)
 	cir := Circle{x: 5, y: 5, r: 2}
-	cirl := &Circle{4, 4, 1}
+	cirl := &Circle{4, 4, 1}	// & to get pointer to the struct
 
 	// Setting Struct values
 	circ.x = 10
@@ -33,7 +33,7 @@ func main() {
 	fmt.Println(circ)
 	fmt.Println(*circl) // Dereferenced pointer
 	fmt.Println(cir)
-	fmt.Println(*cirl)
+	fmt.Println(*cirl)	// Dereferencing because pointer to struct was created
 
 	fmt.Println(circleArea(&circ))
 }
