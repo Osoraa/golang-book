@@ -33,4 +33,10 @@ func main() {
 
 	// strings.Join
 	fmt.Println(strings.Join([]string{"Hippopotamus", "mus"}, "-lmao-"))
+
+	// strings.Repeat
+	fmt.Println(strings.Repeat("Hippopotamus", 5))
+
+	// string.Replace ... -1 replaces all occurrences
+	fmt.Println(strings.Replace("Hippopotamus", "p", "q", -1))	// Hiqqoqotamus
 }
