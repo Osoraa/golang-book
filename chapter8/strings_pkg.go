@@ -12,4 +12,16 @@ func main() {
 
 	// strings.Count
 	fmt.Println(strings.Count("Hippopotamus", "p"))
+	
+	// strings.HasPrefix
+	fmt.Println(strings.HasPrefix("Hippopotamus", "Hip"))
+
+	// strings.HasPrefix
+	fmt.Println(strings.HasPrefix("Hippopotamus", "Hp"))
+	
+	// strings.HasSuffix
+	fmt.Println(strings.HasSuffix("Hippopotamus", "mus"))
+
+	// strings.HasSuffix
+	fmt.Println(strings.HasSuffix("Hippopotamus", "ms"))
 }
