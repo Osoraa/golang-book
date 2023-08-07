@@ -37,6 +37,16 @@ func main() {
 	// strings.Repeat
 	fmt.Println(strings.Repeat("Hippopotamus", 5))
 
-	// string.Replace ... -1 replaces all occurrences
+	// strings.Replace ... -1 replaces all occurrences
 	fmt.Println(strings.Replace("Hippopotamus", "p", "q", -1))	// Hiqqoqotamus
+
+	// strings.Split
+	fmt.Println(strings.Split("Bookie is a babe", " "))
+
+	// Converting string to bytes
+	byte_arr := []byte("Bookie")
+	fmt.Println(byte_arr)
+
+	// Convert bytes to string
+	fmt.Println(string(byte_arr))
 }
