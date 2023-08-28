@@ -32,3 +32,7 @@ func (rec *Rectangle) area() float64 {
 
 - **[Interfaces](./interfaces.go)** allows different structs to be referred to all at once as long as they implement the set of methods that the interface describes.  
 They can also be used as fields in structs allowing for waay more complex types and robust code.
+
+- Type-assertions allows to cast an interface back to it's type struct.
+
+- Type-switches allows for multiple tyoe assertions.
